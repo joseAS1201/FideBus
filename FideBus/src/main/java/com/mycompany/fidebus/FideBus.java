@@ -4,6 +4,8 @@
 
 package com.mycompany.fidebus;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author jose.siles
@@ -11,6 +13,9 @@ package com.mycompany.fidebus;
 public class FideBus {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        
+        JOptionPane.showMessageDialog(null, "Hola");
+        
     }
 }
