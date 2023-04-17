@@ -32,45 +32,5 @@ public class NominaEmpleados {
         }
     }
     
-    public static class Empleado {
-        
-        private String nombre;
-        private int numeroEmpleado;
-        private ArrayList<String> rutasAsignadas;
-        private ArrayList<String> horariosTrabajo;
-        
-        public Empleado(String nombre, int numeroEmpleado, ArrayList<String> rutasAsignadas, ArrayList<String> horariosTrabajo) {
-            this.nombre = nombre;
-            this.numeroEmpleado = numeroEmpleado;
-            this.rutasAsignadas = rutasAsignadas;
-            this.horariosTrabajo = horariosTrabajo;
-        }
-        
-        public String getNombre() {
-            return nombre;
-        }
-        
-        public int getNumeroEmpleado() {
-            return numeroEmpleado;
-        }
-        
-        public ArrayList<String> getRutasAsignadas() {
-            return rutasAsignadas;
-        }
-        
-        public ArrayList<String> getHorariosTrabajo() {
-            return horariosTrabajo;
-        }
-        
-        @Override
-        public String toString() {
-            return "Empleado{" +
-                    "nombre='" + nombre + '\'' +
-                    ", numeroEmpleado=" + numeroEmpleado +
-                    ", rutasAsignadas=" + rutasAsignadas +
-                    ", horariosTrabajo=" + horariosTrabajo +
-                    '}';
-        }
-    }
-    
+  
 }
