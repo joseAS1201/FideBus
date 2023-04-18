@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package GUI;
 
 /**
@@ -125,34 +121,34 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnvehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnvehiculosActionPerformed
-Vehiculos V = new Vehiculos();
-V.setVisible(true);// TODO add your handling code here:
+//Vehiculos V = new Vehiculos();
+//V.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnvehiculosActionPerformed
 
     private void btnEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEmpleadoActionPerformed
-Empleados E = new Empleados ();
-E.setVisible(true);// TODO add your handling code here:
+//Empleados E = new Empleados ();
+//E.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnEmpleadoActionPerformed
 
     private void btnReporteAuditorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReporteAuditorActionPerformed
-ReporteAuditor RA = new ReporteAuditor();
-RA.setVisible(true);
+//ReporteAuditor RA = new ReporteAuditor();
+//RA.setVisible(true);
 // TODO add your handling code here:
     }//GEN-LAST:event_btnReporteAuditorActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-RutasAsignadas RA = new RutasAsignadas ();
-RA.setVisible(true);// TODO add your handling code here:
+//RutasAsignadas RA = new RutasAsignadas ();
+//RA.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void btnInformesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInformesActionPerformed
-Informes IF = new Informes ();
-IF.setVisible(true);// TODO add your handling code here:
+//Informes IF = new Informes ();
+//IF.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnInformesActionPerformed
 
     private void btnAyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAyudaActionPerformed
-Ayuda AY = new Ayuda ();
-AY.setVisible(true);// TODO add your handling code here:
+//Ayuda AY = new Ayuda ();
+//AY.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnAyudaActionPerformed
 
     /**

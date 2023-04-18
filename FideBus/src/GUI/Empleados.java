@@ -5,6 +5,9 @@
  */
 package GUI;
 
+import java.awt.event.ActionEvent;
+
+
 /**
  *
  * @author bdgam
@@ -33,7 +36,7 @@ public class Empleados extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        jbtEliminarEmpleado = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -64,7 +67,12 @@ public class Empleados extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setText("Eliminar empleados");
+        jbtEliminarEmpleado.setText("Eliminar empleados");
+        jbtEliminarEmpleado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtEliminarEmpleadoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -81,7 +89,7 @@ public class Empleados extends javax.swing.JFrame {
                                     .addComponent(btnRutasAsignadas, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jbtEliminarEmpleado, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(168, 168, 168)
                                 .addComponent(jLabel1)))
@@ -104,7 +112,7 @@ public class Empleados extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton6)
+                .addComponent(jbtEliminarEmpleado)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
                 .addComponent(jButton5)
                 .addContainerGap())
@@ -118,14 +126,24 @@ public class Empleados extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btnRutasAsignadasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRutasAsignadasActionPerformed
-RutasAsignadas RT = new RutasAsignadas ();
-RT.setVisible(true);// TODO add your handling code here:
+//RutasAsignadas RT = new RutasAsignadas ();
+//RT.setVisible(true);// TODO add your handling code here:
     }//GEN-LAST:event_btnRutasAsignadasActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
 dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    private void jbtEliminarEmpleadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtEliminarEmpleadoActionPerformed
+        
+        
+            
+      //  }
+      
+        
+    }//GEN-LAST:event_jbtEliminarEmpleadoActionPerformed
+                 
+    
     /**
      * @param args the command line arguments
      */
@@ -167,7 +185,7 @@ dispose();        // TODO add your handling code here:
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton jbtEliminarEmpleado;
     // End of variables declaration//GEN-END:variables
 }
